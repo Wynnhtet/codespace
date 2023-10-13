@@ -1,7 +1,7 @@
 x1 = "Yoon May Thu"
 x2 = "Kitty"
 
-x_input =" What is your name? "
+x_input = input("What is your name? ").lower()
 
 if x_input == x1:
     print(f"Hello : ", x1)
